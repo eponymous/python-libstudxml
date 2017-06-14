@@ -1,0 +1,3 @@
+[submodule "libstudxml"]
+	path = libstudxml
+	url = git://scm.codesynthesis.com/libstudxml/libstudxml.git
