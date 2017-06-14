@@ -1,20 +1,20 @@
-#Python wrapper for libstudxml
+# Python wrapper for libstudxml
 
 Includes [libstudxml](http://www.codesynthesis.com/projects/libstudxml/) as a submodule in the source tree.
 
-###Building
+### Building
 
 Can't figure out the wonky build2 system so...
-
+```
 touch libstudxml/libstudxml/version.hxx
 
 python3 setup.py build
-
+```
 builds everything (libstudxml and the python bindings) as a python module.
 
 NOTE: needs to work around using io.IOBase to support python 2
 
-###Roundtrip Example
+### Roundtrip Example
 
 Reading from a python string object and outputting to sys.sysout
 
@@ -56,7 +56,7 @@ for event in p:
         pass
 ```
 
-###Processing Example
+### Processing Example
 
 Reading from a python file object and printing the result
 
